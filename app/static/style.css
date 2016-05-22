@@ -1,0 +1,24 @@
+#crypForm{
+margin-top: 50px;
+}
+#step{
+width: 50px;
+}
+textarea{
+width:100%;
+}
+#chart {
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: space-around;
+justify-content: space-around;
+-webkit-align-items: flex-end;
+align-items: flex-end;
+width: 100%;
+border-bottom: 1px solid black;
+margin-top:50px;
+}
+
+.jumbotron{
+	width:100%;
+}
