@@ -137,7 +137,8 @@ def whatstep():
             return jsonify(result="Caesar said that the text is encrypted with ROTN = " + str(stepCr))
             break
     return jsonify(result="Caesar said that the text is not encrypted")
-
+    def testme():
+        print "Yes"
 
 
 if __name__=="__main__":

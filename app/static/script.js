@@ -58,7 +58,7 @@ $.getJSON($SCRIPT_ROOT + 'decrypt', {
 crypt: $('#forCrypt').val(),
 step: $("#step").val()
 }, function(data) {
-
+$("#forDeCrypt").text(data.result);
 });
 }
 else{
